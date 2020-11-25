@@ -6,9 +6,10 @@ namespace LibraryManager.Domain.Models
     public class Livro : ModelBase
     {
         private Livro() { }
-     
-        public Livro(string iSBN, string autor, string nome, decimal preco, DateTime publicacao, byte[] imagemCapa)
+
+        public Livro(int id, string iSBN, string autor, string nome, decimal preco, DateTime publicacao, byte[] imagemCapa)
         {
+            Id = id;
             ISBN = iSBN;
             Autor = autor;
             Nome = nome;
@@ -32,5 +33,15 @@ namespace LibraryManager.Domain.Models
         public DateTime Publicacao { get; private set; }
         [Required]
         public byte[] ImagemCapa { get; private set; }
+
+        public void UpdateData(string iSBN, string autor, string nome, decimal preco, DateTime publicacao, byte[] imagemCapa)
+        {
+            ISBN = iSBN;
+            Autor = autor;
+            Nome = nome;
+            Preco = preco;
+            Publicacao = publicacao;
+            ImagemCapa = imagemCapa;
+        }
     }
 }

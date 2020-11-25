@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryManager.Application.DTO\LibraryManager.Application.DTO.csproj" />
+    <ProjectReference Include="..\LibraryManager.Domain.Core\LibraryManager.Domain.Core.csproj" />
+    <ProjectReference Include="..\LibraryManager.Domain\LibraryManager.Domain.csproj" />
+    <ProjectReference Include="..\LibraryManager.Infrastructure.CrossCutting.Adapter\LibraryManager.Infrastructure.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>
