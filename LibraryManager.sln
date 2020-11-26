@@ -11,31 +11,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackEnd", "BackEnd", "{7147
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{D68876F4-7467-42C9-9E3D-BD2520BC7F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Domain", "LibraryManager.Domain\LibraryManager.Domain.csproj", "{E7B1CFB5-DAFA-4A8E-A16C-95F3CC75FD17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Domain", "LibraryManager.Domain\LibraryManager.Domain.csproj", "{E7B1CFB5-DAFA-4A8E-A16C-95F3CC75FD17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Domain.Core", "LibraryManager.Domain.Core\LibraryManager.Domain.Core.csproj", "{0CC5C34E-E680-46D4-82BE-2DDED7CBB99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Domain.Core", "LibraryManager.Domain.Core\LibraryManager.Domain.Core.csproj", "{0CC5C34E-E680-46D4-82BE-2DDED7CBB99A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Domain.Service", "LibraryManager.Domain.Service\LibraryManager.Domain.Service.csproj", "{AC636056-BEBF-44FF-9E82-18EEC90E6C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Domain.Service", "LibraryManager.Domain.Service\LibraryManager.Domain.Service.csproj", "{AC636056-BEBF-44FF-9E82-18EEC90E6C90}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{AC1C854E-33FF-4065-A9F5-46AF1550ED97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{F7DEE8CF-9C86-4479-AF10-0ADC8A1D6F04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Infrastructure.Data", "LibraryManager.Infrastructure.Data\LibraryManager.Infrastructure.Data.csproj", "{7EAB3969-12B6-4964-BC0E-1A8FEC08CE41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Infrastructure.Data", "LibraryManager.Infrastructure.Data\LibraryManager.Infrastructure.Data.csproj", "{7EAB3969-12B6-4964-BC0E-1A8FEC08CE41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Infrastructure.Repository", "LibraryManager.Infrastructure.Repository\LibraryManager.Infrastructure.Repository.csproj", "{BD6C438D-212C-4437-BC4B-2430B2C9288A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Infrastructure.Repository", "LibraryManager.Infrastructure.Repository\LibraryManager.Infrastructure.Repository.csproj", "{BD6C438D-212C-4437-BC4B-2430B2C9288A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E0CAC8F4-5FF1-4577-8335-30D753E0B4D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Application.DTO", "LibraryManager.Application.DTO\LibraryManager.Application.DTO.csproj", "{4BAA6386-7B8A-4860-8AF7-1C972B1925B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Application.DTO", "LibraryManager.Application.DTO\LibraryManager.Application.DTO.csproj", "{4BAA6386-7B8A-4860-8AF7-1C972B1925B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{C9689731-58F4-4D5B-A647-1C76C3DC53D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Infrastructure.CrossCutting.Adapter", "LibraryManager.Infrastructure.CrossCutting.Adapter\LibraryManager.Infrastructure.CrossCutting.Adapter.csproj", "{9B3228AE-8572-41C2-9CD3-DA42C47309C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Infrastructure.CrossCutting.Adapter", "LibraryManager.Infrastructure.CrossCutting.Adapter\LibraryManager.Infrastructure.CrossCutting.Adapter.csproj", "{9B3228AE-8572-41C2-9CD3-DA42C47309C8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1BB90602-4AA5-4DA3-A785-CBE1F808088D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Application", "LibraryManager.Application\LibraryManager.Application.csproj", "{47A955C6-5103-4524-A3F0-044CA976052C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Application", "LibraryManager.Application\LibraryManager.Application.csproj", "{47A955C6-5103-4524-A3F0-044CA976052C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{99AA99D0-3D56-4326-91A3-C0E605473F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Util", "LibraryManager.Util\LibraryManager.Util.csproj", "{B8DBC951-40F4-439F-B743-EF543B0A8B88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{47A955C6-5103-4524-A3F0-044CA976052C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A955C6-5103-4524-A3F0-044CA976052C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A955C6-5103-4524-A3F0-044CA976052C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +107,8 @@ Global
 		{9B3228AE-8572-41C2-9CD3-DA42C47309C8} = {C9689731-58F4-4D5B-A647-1C76C3DC53D4}
 		{1BB90602-4AA5-4DA3-A785-CBE1F808088D} = {71479884-FEFC-43AC-89EC-6A2A11EA1C20}
 		{47A955C6-5103-4524-A3F0-044CA976052C} = {E0CAC8F4-5FF1-4577-8335-30D753E0B4D7}
+		{99AA99D0-3D56-4326-91A3-C0E605473F61} = {71479884-FEFC-43AC-89EC-6A2A11EA1C20}
+		{B8DBC951-40F4-439F-B743-EF543B0A8B88} = {99AA99D0-3D56-4326-91A3-C0E605473F61}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AE008A3-0BAD-4715-A3B9-FE6DD7918EB1}

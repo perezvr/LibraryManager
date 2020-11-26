@@ -21,18 +21,21 @@ namespace LibraryManager.Infrastructure.Repository
 
         public void Add(T obj)
         {
+            obj.Validate();
             DbSet.Add(obj);
             _context.SaveChanges();
         }
 
         public void Update(T obj)
         {
+            obj.Validate();
             _context.Entry(obj).State = EntityState.Modified;
             _context.SaveChanges();
         }
 
         public void Delete(T obj)
         {
+
             DbSet.Remove(obj);
             _context.SaveChanges();
         }

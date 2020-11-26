@@ -6,6 +6,8 @@ namespace LibraryManager.Application.DTO.DTO
     [DataContract]
     public class LivroDTO : ModelBaseDTO
     {
+        public LivroDTO() { }
+
         public LivroDTO(int id, string iSBN, string autor, string nome, decimal preco, DateTime publicacao, byte[] imagemCapa)
         {
             Id = id;
