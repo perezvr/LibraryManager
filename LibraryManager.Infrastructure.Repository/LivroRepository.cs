@@ -15,13 +15,12 @@ namespace LibraryManager.Infrastructure.Repository
             _context = context;
         }
 
-        public void Delete(Livro obj)
+        public new void Delete(Livro obj)
         {
             if (obj is null || obj.Id.Equals(0))
                 throw new Exception("Livro não encontrado");
 
-            DbSet.Remove(obj);
-            _context.SaveChanges();
+            base.Delete(obj);
         }
     }
 }
