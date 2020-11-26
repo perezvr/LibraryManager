@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace LibraryManager.Domain.Models
+namespace LibraryManager.MVC.Models
 {
     public abstract class ModelBase
     {
@@ -18,5 +18,6 @@ namespace LibraryManager.Domain.Models
 
             return true;
         }
+
     }
 }

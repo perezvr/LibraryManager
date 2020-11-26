@@ -39,7 +39,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Application"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Util", "Util", "{99AA99D0-3D56-4326-91A3-C0E605473F61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.Util", "LibraryManager.Util\LibraryManager.Util.csproj", "{B8DBC951-40F4-439F-B743-EF543B0A8B88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryManager.Util", "LibraryManager.Util\LibraryManager.Util.csproj", "{B8DBC951-40F4-439F-B743-EF543B0A8B88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManager.MVC", "LibraryManager.MVC\LibraryManager.MVC.csproj", "{831BB048-CAA0-4C99-A711-2E765CAF7FF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8DBC951-40F4-439F-B743-EF543B0A8B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831BB048-CAA0-4C99-A711-2E765CAF7FF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831BB048-CAA0-4C99-A711-2E765CAF7FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831BB048-CAA0-4C99-A711-2E765CAF7FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831BB048-CAA0-4C99-A711-2E765CAF7FF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -109,6 +115,7 @@ Global
 		{47A955C6-5103-4524-A3F0-044CA976052C} = {E0CAC8F4-5FF1-4577-8335-30D753E0B4D7}
 		{99AA99D0-3D56-4326-91A3-C0E605473F61} = {71479884-FEFC-43AC-89EC-6A2A11EA1C20}
 		{B8DBC951-40F4-439F-B743-EF543B0A8B88} = {99AA99D0-3D56-4326-91A3-C0E605473F61}
+		{831BB048-CAA0-4C99-A711-2E765CAF7FF9} = {64550486-F493-4076-AFB2-D140D60CA922}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5AE008A3-0BAD-4715-A3B9-FE6DD7918EB1}
